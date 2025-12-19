@@ -1,0 +1,38 @@
+{
+  "name": "smart-learn",
+  "version": "1.0.0",
+  "description": "SmartLearn with Gemini and LocalStorage",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm start\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "5.0.1",
+    "@google/genai": "^0.1.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
